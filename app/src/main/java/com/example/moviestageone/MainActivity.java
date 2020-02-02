@@ -76,6 +76,10 @@ public class MainActivity extends AppCompatActivity {
         fetchMovies.execute(sort_type);
     }
 
+
+
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_activity, menu);
